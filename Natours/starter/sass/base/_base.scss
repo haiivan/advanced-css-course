@@ -1,0 +1,18 @@
+/* Basic reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* Force the inherit from the body */
+  box-sizing: inherit;
+}
+
+/* Root!!! */
+html {
+  //Defines what 1 rem is
+  /* 10px / 16px = .625 = 62.5% */
+  font-size: 62.5%;
+  /* font-size: 10px; */
+  /* Now 1rem = 10px */
+}
