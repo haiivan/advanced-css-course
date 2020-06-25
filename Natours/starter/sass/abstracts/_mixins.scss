@@ -1,0 +1,9 @@
+//Fix collapse using float display
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
